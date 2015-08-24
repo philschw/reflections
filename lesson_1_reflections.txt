@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+-Viewing a diff instead of viewing the files themselfes helped my that I didn't have to look at two
+files but only at one listing of differences. Which means that instead of two files I was just looking
+at one (the result) and instead of having to search through the whole thing the diff pointed the
+differences out to me.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+-If something goes wrong I can always go back and see what has changed which will help me find bugs
+-It will help me understand why changes have been made (through comments) and understand how people have changed
+code to solve problems, I could reuse those ideas for my own code
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+-I think it would be very hard (or at least I can't think of a good solution) to let an automated system decide when would
+be a good time to commit. I think automatically created commits would contain a lot of non working and not logically
+meaningful versions. The upside would be that the programme couldn't forget to commit.
+
+-Manual commits can be done whenever a logically meaningful part has been changend and when the code is in a state where
+might work or at least in a state wehere it would be easy to understand where to continue.
+It has the risk that the programmer might forget to commit which would result in too big changes in between commits and also the risk of lost work if for example a laptop breaks or gets stolen and the code hasn't been commited.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+-It highly depends on what kind of file you're versioning. For code it makes a lot of sense to save multiple files in one
+commit because they are highly interdependent. In other files like text for a book or some other kind of written work it
+might be way less important because individual chapters might not depend much on each other.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+- I can use "git diff id1 id2" to see the difference between to commits, also by using git log I can see the whole history
+of commits.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+- I can always easily go back to a working version before, without being afraid that I would have broken the program
+completely
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- I want to use Git to manage my Android Nano Degree projects
