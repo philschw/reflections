@@ -8,3 +8,8 @@ How is the staging area different from the working directory and the repository?
 
 The staging area helps to break commits down into smaller parts. Without the staging area the only way to do a commit
 would be by commiting all at once
+
+
+New question
+
+new answer
