@@ -10,6 +10,7 @@ The staging area helps to break commits down into smaller parts. Without the sta
 would be by commiting all at once
 
 
-New question
+How can you use the staging area to make sure you have one commit per logical change?
 
-new answer
+Since only files added to the staging area are being commited, there can't be any "accidental" commits
+It is used to seperate the files to be commited from all the other files that have changed too.
