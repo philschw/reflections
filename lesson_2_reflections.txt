@@ -25,3 +25,15 @@ you could easily find your experimental branch again and also merge those change
 How do the diagrams help you visualize the branch structure?
 
 It helps understanding if any of your checkouts might not be reachable and how branches relate to each other
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It merges differences that have been made to both branches together and moves the master to the new
+tip. The representation is done the way it is because the new master is parent of both former branches
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves a ton of work and makes it much more usable but it's not always well suited
+for complicated problems, this is where manual merges are really helpful.
