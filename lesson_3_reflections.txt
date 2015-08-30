@@ -8,3 +8,10 @@ are using more than one system to work on your project.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If someone else made changes to the remote repository and Git automatically pulls changes, I guess this might override some of the things I changed locally. Also I think it might break my code because I maybe need to make adjustments to my code first before it will run with the newest version in the remote repository, but I don't want to do that all the time, only when I'm finished writing my code ... ?
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches are only created locally and are used to try out new things, make experimental version and so on.
+Clones are either used to make a complete copy of a remote repository to a local machine or to make a complete copy of local repository to a different places on a local machine.
+Forks are used to make a "clone" on GitHub. This is used if you don't have permission to push to the original or if you want to make a different version of this code.
