@@ -26,3 +26,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 You could send files over email or store them in a fileshare or FTP server.
 All those options would be much harder since it would be very difficult to merge togheter changes and know which version is working, the most recent and so on. You'd also have to copy the whole folder to make branches.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I believe that making changes in a branch gives you the freedom to experiment without the fear of breaking the master, you can try things out and see if they work or not. Making changes directly into the master is easier but I think is also riskier and should be used for fixes and small updates rather than changes I guess.
